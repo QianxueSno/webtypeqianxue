@@ -90,3 +90,18 @@ nav div a:hover{
   left: 240px;
   }
 }
+
+@media screen and (max-width: 375px){
+  body{
+    font-size: 25px;
+    display: block;
+    height:auto;
+  }
+  h3{
+    margin-left: 40px;
+  }
+  h1
+  {
+  left: 40px;
+  }
+}

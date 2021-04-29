@@ -76,7 +76,8 @@ nav div a:hover{
   opacity:1.5;
 }
 
-@media screen and (max-width:1200px) and (min-width:78px) {
-  background:black;
-
-}
+@media screen and (max-width: 480px){
+  .container{
+    width: 100%;
+  }
+} 

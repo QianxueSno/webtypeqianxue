@@ -78,6 +78,7 @@ nav div a:hover{
 
 @media screen and (max-width: 480px){
   body{
+    font-size: 80%;
     display: block;
     height:auto;
   }

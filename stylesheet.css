@@ -1,0 +1,77 @@
+
+body {
+  background-color: white;
+  background-image:url("image/bk.png");
+  background-size: cover;
+  }
+
+
+p {
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 55px;
+    margin-top: 90px;
+    margin-left: 230px;
+    z-index: auto;
+    opacity: 0.8;
+  }
+
+  div.exercises{
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 110px;
+    color:rgb(11, 111, 200);
+    z-index: 10;
+    position: absolute;
+  }
+
+  .intro {
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 25px;
+  margin-top: 120px;
+  margin-left: 240px;
+  line-height: 1.4;
+  color:rgb(11, 111, 200);
+  opacity: 0.6;
+}
+
+.qx{
+  margin-top: 50px;
+  margin-left: 100px;
+
+}
+  h1 {
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 20px;
+  margin-top: 100px;
+    margin-left: 240px;
+  color:rgb(69, 80, 99);
+}
+
+h3 {
+font-family: 'Averia Serif Libre', cursive;
+font-size: 25px;
+margin-top: 100px;
+margin-left: 990px;
+line-height: 1.4;
+color:rgb(96, 84, 21);
+opacity: 0.6;
+}
+
+/* NAVIGATION */
+  nav.dms {
+  margin-top: 50px;
+  margin-left: 1200px;
+  font-size: 50px;
+  top: 0;
+  position: fixed;
+  z-index: initial;
+  opacity:1;
+  line-height: 0.1;
+}
+nav div a{
+  opacity:0.6;
+}
+nav div a:hover{
+  opacity:1.5;
+}

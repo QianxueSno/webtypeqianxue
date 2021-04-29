@@ -94,13 +94,13 @@ nav div a:hover{
   font-size: 18px;
 }
   h3{
-    margin-left: 80px;
+    margin-left: 90px;
     font-size: 18px;
   }
   h1
   {
-  margin-left: 20px
-  font-size: 18px;
+    margin-left: 80px;
+    font-size: 30px;
   }
 
 }

@@ -114,7 +114,10 @@ nav div a:hover{
   h2{
       margin-left: 80px;
       }
-
+.intro{
+  margin-left: 80px;
+  font-size: 30px;
+}
   h3{
     margin-left: 80px;
   }

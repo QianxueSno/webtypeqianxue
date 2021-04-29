@@ -77,7 +77,8 @@ nav div a:hover{
 }
 
 @media screen and (max-width: 480px){
-  .container{
-    width: 100%;
+  .columns{
+    display: block;
+    height:auto;
   }
-} 
+}

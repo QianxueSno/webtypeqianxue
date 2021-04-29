@@ -79,26 +79,33 @@ nav div a:hover{
 
 @media screen and (max-width: 768px){
   body{
-    font-size: 80%;
+      background-image:300px;
+      font-size: 25px;
     display: block;
     height:auto;
   }
+
   p{
     margin-left: 80px;
     font-size: 30px;
     }
-
+  h2{
+      margin-left: 80px;
+      font-size: 18px;
+      }
+.intro{
+  left: 80px;
+  font-size: 18px;
+}
   h3{
     margin-left: 80px;
+    font-size: 18px;
   }
   h1
   {
-  margin-left: 80px
+  margin-left: 20px
   font-size: 18px;
   }
-  h2{
-    margin-left: 80px;
-    }
 
 }
 

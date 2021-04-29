@@ -2,6 +2,7 @@
 body {
   background-color: white;
   background-image:url("image/bk.png");
+  width: 100%;
   background-size: cover;
   }
 
@@ -102,7 +103,8 @@ nav div a:hover{
 
 @media screen and (max-width: 375px){
   body{
-    font-size: 25px;
+      width: 100%;
+      font-size: 25px;
     display: block;
     height:auto;
   }

@@ -123,6 +123,7 @@ nav div a:hover{
   }
   h1
   {
-  left: 40px;
+  margin-left: 80px
+  font-zie: 18px;
   }
 }

@@ -83,6 +83,10 @@ nav div a:hover{
     height:auto;
   }
   h3{
-    margin-left: 180px;
+    margin-left: 240px;
+  }
+  h1
+  {
+  left: 240px;
   }
 }

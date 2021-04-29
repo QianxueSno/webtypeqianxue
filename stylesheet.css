@@ -82,4 +82,7 @@ nav div a:hover{
     display: block;
     height:auto;
   }
+  h3{
+    margin-left: 180px;
+  }
 }

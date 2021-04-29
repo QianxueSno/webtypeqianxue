@@ -82,8 +82,12 @@ nav div a:hover{
     display: block;
     height:auto;
   }
+  p{
+    margin-left: 80px;
+    }
+
   h3{
-    margin-left: 180px;
+    margin-left: 80px;
   }
   h1
   {
@@ -97,8 +101,13 @@ nav div a:hover{
     display: block;
     height:auto;
   }
+  
+  p{
+    margin-left: 80px;
+    }
+
   h3{
-    margin-left: 180px;
+    margin-left: 80px;
   }
   h1
   {

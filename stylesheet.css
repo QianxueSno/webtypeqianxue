@@ -115,8 +115,8 @@ nav div a:hover{
 
 @media screen and (max-width: 375px){
 body{
-      background-image:300px;
-      font-size: 25px;
+    background-image:300px;
+    font-size: 25px;
     display: block;
     height:auto;
   }
@@ -126,8 +126,8 @@ p{
     font-size: 30px;
     }
 h2{
-      margin-left: 80px;
-      font-size: 18px;
+    margin-left: 80px;
+    font-size: 18px;
       }
 .intro{
   left: 80px;

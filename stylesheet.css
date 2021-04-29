@@ -148,3 +148,35 @@ h1
   font-size: 18px;
   }
 }
+
+
+@media screen and (max-width: 320px){
+body{
+    background-image:300px;
+    font-size: 25px;
+    display: block;
+    height:auto;
+  }
+
+p{
+    margin-left: 80px;
+    font-size: 30px;
+    }
+h2{
+    margin-left: 80px;
+    font-size: 18px;
+      }
+.intro{
+  left: 80px;
+  font-size: 18px;
+}
+h3{
+    margin-left: 80px;
+    font-size: 18px;
+  }
+h1
+  {
+  margin-left: 20px
+  font-size: 18px;
+  }
+}

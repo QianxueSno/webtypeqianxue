@@ -93,6 +93,10 @@ nav div a:hover{
   {
   left: 240px;
   }
+  h2{
+    margin-left: 80px;
+    }
+
 }
 
 @media screen and (max-width: 375px){
@@ -101,10 +105,13 @@ nav div a:hover{
     display: block;
     height:auto;
   }
-  
+
   p{
     margin-left: 80px;
     }
+  h2{
+      margin-left: 80px;
+      }
 
   h3{
     margin-left: 80px;

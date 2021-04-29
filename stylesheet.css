@@ -114,18 +114,18 @@ nav div a:hover{
 }
 
 @media screen and (max-width: 375px){
-  body{
+body{
       background-image:300px;
       font-size: 25px;
     display: block;
     height:auto;
   }
 
-  p{
+p{
     margin-left: 80px;
     font-size: 30px;
     }
-  h2{
+h2{
       margin-left: 80px;
       font-size: 18px;
       }
@@ -133,11 +133,11 @@ nav div a:hover{
   left: 80px;
   font-size: 18px;
 }
-  h3{
+h3{
     margin-left: 80px;
     font-size: 18px;
   }
-  h1
+h1
   {
   margin-left: 20px
   font-size: 18px;

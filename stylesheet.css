@@ -44,14 +44,12 @@ p {
   h1 {
   font-family: 'Averia Serif Libre', cursive;
   font-size: 20px;
-  margin-top: 100px;
-    margin-left: 240px;
   color:rgb(69, 80, 99);
 }
 
 h2 {
 font-family: 'Averia Serif Libre', cursive;
-font-size: 20px;
+font-size: 25px;
 margin-top: 100px;
   margin-left: 240px;
 color:rgb(69, 80, 99);
@@ -86,6 +84,52 @@ nav div a:hover{
 }
 
 
+.code0{
+
+}
+
+.code0:hover{
+  color:purple;
+}
+
+.code{
+
+}
+
+.code:hover{
+  color:silver;
+}
+
+.code2{
+
+}
+
+.code2:hover{
+  color:gold;
+}
+
+.code3{
+  margin-top: 90px;
+    margin-left: 240px;
+}
+
+.code3:hover{
+  color:gold;
+}
+
+.code4{
+}
+
+.code4:hover{
+  color:blue;
+}
+
+.code5{
+}
+
+.code5:hover{
+  color:red;
+}
 @media screen and (max-width: 975px){
 body{
     background-image:300px;

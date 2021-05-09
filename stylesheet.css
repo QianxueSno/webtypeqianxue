@@ -77,12 +77,11 @@ margin-left: 270px;
 }
 
 .code3{
-  margin-top: 180px;
+  margin-top: 230px;
     margin-left: 240px;
 }
 
 .code3:hover{
-  color:gold;
 }
 
 .code4{
@@ -161,10 +160,4 @@ h1{
 .code5:hover{
 
 }
-}
-
-#mydiv {
-  position: absolute;
-  z-index: 9;
-  text-align: center;
 }

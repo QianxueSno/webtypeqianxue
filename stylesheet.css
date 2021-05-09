@@ -1,7 +1,6 @@
 
 body {
   background-color: white;
-  background-image:url("image/bk.png");
   width: 100%;
   background-size: cover;
   }
@@ -10,8 +9,8 @@ body {
 p {
     font-family: 'Averia Serif Libre', cursive;
     font-size: 55px;
+    margin-left:50%;
     margin-top: 90px;
-    margin-left: 230px;
     z-index: auto;
     opacity: 0.8;
   }
@@ -23,6 +22,7 @@ p:hover{
   font-family: 'Averia Serif Libre', cursive;
   font-size: 20px;
   color:rgb(69, 80, 99);
+  position: fixed;
 }
 
 h1:hover{
@@ -41,16 +41,17 @@ h2:hover{
 }
 
 h3 {
-font-family: 'Averia Serif Libre', cursive;
+font-family: 'Alegreya', serif;
 font-size: 25px;
 line-height: 1.4;
-color:rgb(96, 84, 21);
+color:navy;
 opacity: 0.6;
 }
 
 
 h3:hover{
-  color:blue;
+  color: Lawngreen;
+  font-size:32px;
 }
 
 .name{
@@ -94,6 +95,14 @@ margin-left: 270px;
 
 .code5{
     margin-left: 1100px;
+}
+
+.code5:hover{
+  color:red;
+}
+
+.code6{
+    margin-left: 1400px;
 }
 
 .code5:hover{
@@ -160,4 +169,8 @@ h1{
 .code5:hover{
 
 }
+}
+
+div[id^='id_']:hover {
+opacity: 0.5;
 }

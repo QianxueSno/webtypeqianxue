@@ -15,85 +15,43 @@ p {
     z-index: auto;
     opacity: 0.8;
   }
-
-  div.exercises{
-    font-family: 'Averia Serif Libre', cursive;
-    font-size: 30px;
-    margin-top: 10px;
-    margin-left: 110px;
-    color:rgb(11, 111, 200);
-    z-index: 10;
-    position: absolute;
-  }
-
-  .intro {
-  font-family: 'Averia Serif Libre', cursive;
-  font-size: 25px;
-  margin-top: 120px;
-  margin-left: 240px;
-  line-height: 1.4;
-  color:rgb(11, 111, 200);
-  opacity: 0.6;
+p:hover{
+  color: purple;
 }
 
-.qx{
-  margin-top: 50px;
-  margin-left: 100px;
-
-}
   h1 {
   font-family: 'Averia Serif Libre', cursive;
   font-size: 20px;
   color:rgb(69, 80, 99);
 }
 
+h1:hover{
+  color:blue;
+}
+
 h2 {
 font-family: 'Averia Serif Libre', cursive;
 font-size: 25px;
-margin-top: 100px;
-  margin-left: 240px;
 color:rgb(69, 80, 99);
 }
 
 h3 {
 font-family: 'Averia Serif Libre', cursive;
 font-size: 25px;
-margin-top: 100px;
-margin-left: 990px;
 line-height: 1.4;
 color:rgb(96, 84, 21);
 opacity: 0.6;
 }
 
-/* NAVIGATION */
-  nav.dms {
-  margin-top: 50px;
-  margin-left: 1200px;
-  font-size: 50px;
-  top: 0;
-  position: fixed;
-  z-index: initial;
-  opacity:1;
-  line-height: 0.1;
-}
-nav div a{
-  opacity:0.6;
-}
-nav div a:hover{
-  opacity:1.5;
-}
-
-
-.code0{
+.name{
 
 }
 
-.code0:hover{
-  color:purple;
+.name:hover{
 }
 
 .code{
-
+margin-left: 270px;
 }
 
 .code:hover{
@@ -101,7 +59,7 @@ nav div a:hover{
 }
 
 .code2{
-
+margin-left: 270px;
 }
 
 .code2:hover{
@@ -109,7 +67,7 @@ nav div a:hover{
 }
 
 .code3{
-  margin-top: 90px;
+  margin-top: 180px;
     margin-left: 240px;
 }
 
@@ -118,6 +76,7 @@ nav div a:hover{
 }
 
 .code4{
+  margin-left: 1100px;
 }
 
 .code4:hover{
@@ -125,102 +84,77 @@ nav div a:hover{
 }
 
 .code5{
+    margin-left: 1100px;
 }
 
 .code5:hover{
   color:red;
 }
-@media screen and (max-width: 975px){
+
+@media screen and (max-width:850px){
 body{
-    background-image:300px;
+    background-image:850px;
     font-size: 25px;
     display: block;
-    height:auto;
+    background-size: 650px;
+    width: 350px;
+
   }
 
 p{
-    margin-left: 80px;
-    font-size: 30px;
-    }
+  font-size: 50px;
+  margin-left: 20px;
+  display: flex;
+  margin-top:10px;
+}
+
 h2{
-    margin-left: 80px;
-    font-size: 18px;
-      }
-.intro{
-  left: 80px;
-  font-size: 18px;
+  font-size: 20px;
+  margin-top: 40px;
+
 }
-h3{
-    margin-left: 80px;
-    font-size: 18px;
-  }
-h1
-  {
-  margin-left: 20px
+h1{
   font-size: 18px;
-  }
+
+}
+.code{
+  margin-left: 20px;
+}
+
+.code2{
+  margin-left: 20px;
 }
 
 
-@media screen and (max-width: 375px){
-body{
-    background-image:300px;
-    font-size: 25px;
-    display: block;
-    height:auto;
-  }
+.code3{
+  margin-top: 20px;
+  margin-left: 20px;
 
-p{
-    margin-left: 80px;
-    font-size: 30px;
-    }
-h2{
-    margin-left: 80px;
-    font-size: 18px;
-      }
-.intro{
-  left: 80px;
-  font-size: 18px;
 }
-h3{
-    margin-left: 80px;
-    font-size: 18px;
-  }
-h1
-  {
-  margin-left: 20px
-  font-size: 18px;
-  }
+.code3:hover{
+  margin-top: 20px;
+  margin-left: 20px;
+  color: blue;
+
+
+}
+
+.code4{
+    margin-left: 20px;
 }
 
 
-@media screen and (max-width: 320px){
-body{
-    background-image:300px;
-    font-size: 25px;
-    display: block;
-    height:auto;
-  }
-
-p{
-    margin-left: 80px;
-    font-size: 30px;
-    }
-h2{
-    margin-left: 80px;
-    font-size: 18px;
-      }
-.intro{
-  left: 80px;
-  font-size: 18px;
+.code5{
+    margin-left: 20px;
+      color:red;
 }
-h3{
-    margin-left: 80px;
-    font-size: 18px;
-  }
-h1
-  {
-  margin-left: 20px
-  font-size: 18px;
-  }
+.code5:hover{
+
+}
+}
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
 }

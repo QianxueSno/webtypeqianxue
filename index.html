@@ -46,6 +46,18 @@
     border:none;
 }
 
+div.marquee {
+    white-space:no-wrap;
+    overflow:hidden;
+    font-size: 30px;
+    color:blue;
+}
+div.marquee > div.marquee-text {
+    white-space:nowrap;
+    display:inline;
+    width:auto;
+}
+
 </style>
 <head>
 
@@ -60,6 +72,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&display=swap" rel="stylesheet">
     <script src="java.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<div class='marquee'>
+    <div class='marquee-text'>
+      Panda, little girl, Zoom screen, nightmares, and the neon god...
+    </div>
+</div>
 
 
   <!-- this is where my meta-info lives, but won’t show up on the page itself-->
@@ -104,8 +123,6 @@ to qzhao01@ <a href="#"></a>. </h1></div>
 <div id="my4">
   <div id="mydivheader"><img class="lz" src="image/7.png" width="300px ">
 </div></div>
-
-
 <div id="my5">
   <div id="mydivheader"><img class="lz" src="image/6.png" width="300px ">
 </div></div>
@@ -329,6 +346,21 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+$(document).ready(function() {
+    var marquee = $('div.marquee');
+    console.log(marquee);
+    marquee.each(function() {
+        var mar = $(this),indent = mar.width();
+        mar.marquee = function() {
+            indent--;
+            mar.css('text-indent',indent);
+            if (indent < -1 * mar.children('div.marquee-text').width()) {
+                indent = mar.width();
+            }
+        };
+        mar.data('interval',setInterval(mar.marquee,1000/60));
+    });
+});
 </script>
 </body>
 </html>

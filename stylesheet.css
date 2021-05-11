@@ -41,7 +41,7 @@ h2:hover{
 }
 
 h3 {
-font-family: 'Alegreya', serif;
+font-family: 'Nunito', sans-serif;
 font-size: 25px;
 line-height: 1.4;
 color:navy;
@@ -51,7 +51,6 @@ opacity: 0.6;
 
 h3:hover{
   color: Lawngreen;
-  font-size:32px;
 }
 
 .name{
@@ -62,7 +61,7 @@ h3:hover{
 }
 
 .code{
-margin-left: 270px;
+margin-left: 200px;
 }
 
 .code:hover{
@@ -70,7 +69,7 @@ margin-left: 270px;
 }
 
 .code2{
-margin-left: 270px;
+margin-left: 200px;
 }
 
 .code2:hover{
@@ -78,8 +77,8 @@ margin-left: 270px;
 }
 
 .code3{
-  margin-top: 230px;
-    margin-left: 240px;
+  margin-top: 200px;
+    margin-left: 200px;
 }
 
 .code3:hover{
@@ -168,6 +167,11 @@ h1{
 }
 .code5:hover{
 
+}
+
+
+.code6{
+    margin-left: 200px;
 }
 
 #my {

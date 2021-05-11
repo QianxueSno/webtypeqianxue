@@ -14,7 +14,7 @@ p {
     opacity: 0.8;
   }
 p:hover{
-  color: purple;
+  color: Chartreuse;
 }
 
   h1 {
@@ -177,6 +177,26 @@ h1{
 .code6{
     margin-left: 200px;
 }
+
+.music{
+  margin-left: 30px;
+  display: block;
+  border-radius: 20px;
+  margin:0 auto;
+}
+
+
+#button:h3 {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
 
 #my {
   position: absolute;

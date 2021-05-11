@@ -1,7 +1,6 @@
 
 body {
   background-color: white;
-  width: 100%;
   background-size: cover;
   }
 
@@ -54,7 +53,7 @@ h3:hover{
 }
 
 .name{
-
+margin-top: 90px;
 }
 
 .name:hover{
@@ -109,13 +108,17 @@ margin-left: 160px;
   color:red;
 }
 
+.button1{
+    top: 10px;
+    margin-left: 190px;
+}
+
 @media screen and (max-width:850px){
 body{
     background-image:850px;
     font-size: 25px;
     display: block;
     background-size: 650px;
-    width: 350px;
 
   }
 
@@ -123,12 +126,12 @@ p{
   font-size: 50px;
   margin-left: 20px;
   display: flex;
-  margin-top:10px;
+  margin-top:190px;
 }
 
 h2{
   font-size: 20px;
-  margin-top: 40px;
+  margin-top: 90px;
 
 }
 h1{

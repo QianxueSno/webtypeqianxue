@@ -43,7 +43,7 @@
   text-align: center;
   top:450px;
   left:690px;
-    border:none;
+  border:none;
 }
 
 div.marquee {
@@ -58,7 +58,17 @@ div.marquee > div.marquee-text {
     width:auto;
 }
 
+#x1 {
+  top:0px;
+  width: 1800px;
+  height: 1000px;
+  background:white;
+  position: absolute;
+  z-index: -1;
+}
 </style>
+
+
 <head>
 
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -74,11 +84,18 @@ div.marquee > div.marquee-text {
     <script src="java.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<div class='marquee'>
+
+      <audio controls>
+      <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+
+    <div class='marquee'>
     <div class='marquee-text'>
-      Panda, little girl, Zoom screen, nightmares, and the neon god...
+      Panda, little girl, Zoom screen, capitalistic nightmares, and the neon god...
     </div>
-</div>
+     </div>
 
 
   <!-- this is where my meta-info lives, but won’t show up on the page itself-->
@@ -87,24 +104,28 @@ div.marquee > div.marquee-text {
       <script src="java.js"></script>
 <body>
 
+      <button onclick="myFunction()"><h3>1</h3></button>
+
+<div id="x1">
+
+
+
     <div class="name"><p>Welcome to Qianxue Zhao's "desktop" (2021)</p></div>
-<br>
+    <br>
 
-<div class="code"><h2>project 1 a family archive<a href="../project-1/index.html">*</a></h2></div>
-<div class="code2"><h2>project 2 "what are the missing parts?"<a href="../project-2/3.html">*</a><br></h2></div>
-<br>
+    <div class="code"><h2>project 1 a family archive<a href="../project-1/index.html">*</a></h2></div>
+    <div class="code2"><h2>project 2 "what are the missing parts?"<a href="../project-2/3.html">*</a><br></h2></div>
+    <br>
 
+    <br>
+    <div class="code4"><h2>exercise 1 <a href="../lettercomposition/type.html">*</a></h2></div>
+    <br>
 
-<br>
-<div class="code4"><h2>exercise 1 <a href="../lettercomposition/type.html">*</a></h2></div>
-<br>
+    <div class="code5"><h2>exercise 2 <a href="../lettercomposition/type.html">*</a></h2></div>
+    <br>
+    <div class="code6"><h3>"drag me" <a href="#"></a></h3></div>
 
-<div class="code5"><h2>exercise 2 <a href="../lettercomposition/type.html">*</a></h2></div>
-<br>
-<div class="code6"><h3>"drag me" <a href="../lettercomposition/type.html"></a></h2></div>
-
-<div class="code3"><h1>If you have any questions please send me an email <br>
-to qzhao01@ <a href="#"></a>. </h1></div>
+    <div class="code3"><h1>If you have any questions please send me an email <br>qzhao01@ <a href="#"></a>. </h1></div>
 
 
 
@@ -127,9 +148,12 @@ to qzhao01@ <a href="#"></a>. </h1></div>
   <div id="mydivheader"><img class="lz" src="image/6.png" width="300px ">
 </div></div>
 
-
 </div>
 <script>
+
+function myFunction() {
+   document.getElementById("x1").style.backgroundImage = "url(image/m3.png)";
+}
 //Make the DIV element draggagle:
 dragElement(document.getElementById("my"));
 

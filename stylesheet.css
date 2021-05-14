@@ -123,6 +123,12 @@ margin-left: 160px;
     top: 10px;
     margin-left: 190px;
 }
+.code9{
+    margin-left: 1400px;
+    position: absolute;
+    margin-top:-240px;
+
+}
 
 @media screen and (max-width:850px){
 body{
@@ -175,6 +181,7 @@ h1{
 .code4{
     margin-left: 20px;
     margin-top:-150px;
+    font-size: 18px;
 }
 
 
@@ -194,6 +201,11 @@ h1{
 }
 .code7{
     margin-left: 20px;
+}
+
+.code9{
+    margin-left: 260px;
+    margin-top:-450px;
 }
 
 .music{
